@@ -33,3 +33,20 @@
 	font-size: 2rem;
 	font-weight: unset;
 }
+ /*AURORA BOREALIS PART*/
+
+#aurora {
+  background-image: url(../img/1.png);
+  background-repeat: no-repeat;
+  padding: 50px;
+
+}
+
+#aurora h2, p {
+	color: white;
+	text-align: center;
+}
+
+#aurora img {
+	border: solid 1px white;
+}
