@@ -1,6 +1,7 @@
 [class^=col]{
 	/*border: solid 1px;*/
 }
+/* START OF HEADER DIV */
 #navDiv:hover{
 	background-color: rgba(0, 0, 0, 0.5);
 }
@@ -33,13 +34,18 @@
 	font-size: 2rem;
 	font-weight: unset;
 }
- /*AURORA BOREALIS PART*/
+/* END OF HEADER DIV */
+
+
+/* START OF AURORA BOREALIS PART */
 
 #aurora {
   background-image: url(../img/1.png);
   background-repeat: no-repeat;
-  padding: 50px;
-
+  background-size: cover;
+}
+#aurora .container{
+	padding: 30px;
 }
 
 #aurora h2, p {
@@ -50,3 +56,10 @@
 #aurora img {
 	border: solid 1px white;
 }
+
+#aurora .btn {
+	color: white;
+	background-color: transparent;
+	margin-bottom: 12px;
+}
+/* END OF AURORA BOREALIS PART */
