@@ -63,3 +63,20 @@
 	margin-bottom: 12px;
 }
 /* END OF AURORA BOREALIS PART */
+
+/*Moon*/
+
+#moon {
+  background-image: url(../img/1.png);
+  background-repeat: no-repeat;
+  padding: 50px;	
+}
+
+#moon h3, p{
+    color: white;
+	text-align: center;	
+}
+
+#moon img {
+	border: solid 1px white;
+}
