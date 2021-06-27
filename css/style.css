@@ -1,5 +1,5 @@
 [class^=col]{
-	/*border: solid 1px;*/
+	border: solid 1px;
 }
 /* START OF HEADER DIV */
 #navDiv:hover{
@@ -37,8 +37,7 @@
 /* END OF HEADER DIV */
 
 
-/* START OF AURORA BOREALIS PART */
-
+/* START OF AURORA BOREALIS DIV */
 #aurora {
   background-image: url(../img/1.png);
   background-repeat: no-repeat;
@@ -47,36 +46,44 @@
 #aurora .container{
 	padding: 30px;
 }
-
-#aurora h2, p {
+#aurora h2, #aurora p {
 	color: white;
 	text-align: center;
 }
-
 #aurora img {
 	border: solid 1px white;
 }
-
 #aurora .btn {
 	color: white;
 	background-color: transparent;
 	margin-bottom: 12px;
 }
-/* END OF AURORA BOREALIS PART */
+/* END OF AURORA BOREALIS DIV */
 
-/*Moon*/
 
-#moon {
-  background-image: url(../img/1.png);
-  background-repeat: no-repeat;
-  padding: 50px;	
+/* START OF MOON DIV */
+#moon .container{
+	padding: 30px;
 }
-
-#moon h3, p{
-    color: white;
+#moon {
+	background-image: url(../img/bg2.jpg);
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+#moon h2, #moon p, #moon h3{
+  	color: white;
 	text-align: center;	
+}
+#moon h3{
+	font-weight: bolder;
 }
 
 #moon img {
 	border: solid 1px white;
 }
+#moon .btn {
+	color: white;
+	background-color: transparent;
+	margin-bottom: 12px;
+}
+/* END OF MOON DIV */
