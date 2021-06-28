@@ -87,3 +87,28 @@
 	margin-bottom: 12px;
 }
 /* END OF MOON DIV */
+
+/* START OF GALAXY PART*/
+
+#inner-galaxy {
+	background-image: url(../img/1.png);
+	background-repeat: no-repeat;
+	padding: 0%;
+}
+
+#inner-galaxy h2, #inner-galaxy p {
+	text-align: justify;
+    color: white;
+	margin-top: 15%;
+}
+
+#left-galaxy , #right-galaxy{
+	padding: 0%;
+}
+
+#right-galaxy h2, p {
+	color: black;
+	text-align: center;
+}
+
+/* END OF GALAXY */
