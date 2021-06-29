@@ -1,9 +1,12 @@
 [class^=col]{
-	border: solid 1px;
+	/*border: solid 1px;*/
+}
+html {
+  scroll-behavior: smooth;
 }
 /* START OF HEADER DIV */
 #navDiv:hover{
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.25);
 }
 #headerNav .navbar-toggler{
 	color: white;
@@ -88,27 +91,106 @@
 }
 /* END OF MOON DIV */
 
-/* START OF GALAXY PART*/
 
-#inner-galaxy {
+/* START OF GALAXY PART*/
+#left-galaxy {
 	background-image: url(../img/1.png);
 	background-repeat: no-repeat;
 	padding: 0%;
 }
-
 #inner-galaxy h2, #inner-galaxy p {
 	text-align: justify;
     color: white;
-	margin-top: 15%;
 }
-
+#inner-galaxy{
+	margin-top: 4%;
+}
+#inner-galaxy .img-fluid{
+	border: solid 2px grey;
+}
 #left-galaxy , #right-galaxy{
 	padding: 0%;
 }
-
 #right-galaxy h2, p {
 	color: black;
 	text-align: center;
 }
-
 /* END OF GALAXY */
+
+
+/* START OF JOIN US DIV */
+#joinUs #x{
+	padding: 30px 50px;
+}
+#joinUs h2{
+	text-shadow: 2px 2px;
+	font-size: 2rem;
+}
+#joinUs img{
+	width: 100%;
+	height: 100%;
+}
+#joinUs button{
+	border-radius: 10px;
+	width: 150px;
+}
+/* END OF JOIN US DIV */
+
+
+/* START OF OUR TEAM DIV */
+#team {
+	background-image: url(../img/1.png);
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	max-width: 100%;
+  	color: white;
+  	padding: 10px 50px;
+}
+#team .img-fluid{
+	/*max-width: 250px;*/
+	max-height: 250px;
+	border: solid 2px grey;
+	border-radius: 360px;
+}
+#team h2{
+	font-size: 55px;
+}
+#team h4{
+	font-style: italic;
+	font-weight: lighter;
+}
+#team h3{
+	text-shadow: 1px 2px grey;
+}
+#team h3, h4{
+	margin: 0;
+}
+#team .row{
+	padding: 10px 10px 10px;
+}
+/* END OF OUR TEAM DIV */
+
+
+/* START OF FOOTER */
+#footer1{
+	background-color: lightgray;
+}
+#footer1 .container-sm .row{
+	margin: 20px
+}
+#footer1 p{
+	text-align: center;
+	margin-bottom: 0;
+}
+
+#footer2{
+	background-color: black;	
+}
+#footer2 p{
+	color: white;
+	text-align: center;
+	margin-bottom: 0;
+}
+#footer2 .container-sm .row{
+	margin: 20px
+}
